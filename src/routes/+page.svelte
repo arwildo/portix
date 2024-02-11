@@ -1,0 +1,69 @@
+<script>
+    import JavascriptLogo from '../assets/images/javascript.svg'
+</script>
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+    </div>
+    <div class="relative pt-36 ml-auto">
+        <div class="lg:w-2/3 text-center mx-auto">
+            <h1 class="text-white font-bold text-5xl md:text-6xl xl:text-7xl">Clean, Fast, Modern <br><span class="text-white">Web App.</span></h1>
+            <p class="mt-8 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
+            <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                <a
+                    href="/contact"
+                    class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                >
+                    <span class="relative text-base font-semibold text-white"
+                    >Let's Chat</span
+                    >
+                </a>
+                <a
+                    href="/more"
+                    class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                >
+                    <span
+                    class="relative text-base font-semibold text-white"
+                    >Up Work</span
+                    >
+                </a>
+            </div>
+            <div class="hidden py-8 mt-16 border-y border-gray-800 sm:flex justify-between">
+                <div class="text-left">
+                    <h6 class="text-lg font-semibold text-white">3D Website</h6>
+                    <p class="mt-2 text-gray-500">Some text here</p>
+                </div>
+                <div class="text-left">
+                    <h6 class="text-lg font-semibold text-white">Desktop Software</h6>
+                    <p class="mt-2 text-gray-500">Some text here</p>
+                </div>
+                <div class="text-left">
+                    <h6 class="text-lg font-semibold text-white">Script</h6>
+                    <p class="mt-2 text-gray-500">Some text here</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+            <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                <img src={JavascriptLogo} class="h-7 w-auto mx-auto" loading="lazy" alt="Javascript"/>
+            </div>
+        </div>
+    </div>
+</div>
